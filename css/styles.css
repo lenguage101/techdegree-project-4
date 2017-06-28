@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+}
+.container {
+	width: 95%;
+	margin: 0 auto;
+	overflow: auto;
+}
+.searching {
+	text-align: center;
+	padding: 25px 0;
+}
+input {
+	width: 45%;
+}
+.responsive {
+	text-align: center;
+	padding: 20px 0;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 500px){
+	.responsive {
+		display: inline-block;
+		float: left;	
+		width: 50%;
+	}
+}
+@media screen and (min-width: 768px){
+	.responsive {
+		width: 33.33%;
+	}
+}
+@media screen and (min-width: 1024px){
+	.container {
+		width: 85%;
+	}
+	.responsive {
+		width: 25%;
+	}
+}
+@media screen and (min-width: 1300px){
+	.container {
+		width: 80%;
+	}
+}
